@@ -163,5 +163,6 @@
     "preference-redLinkQuickEdit": "Add quick edit buttons after red links",
     "preference-plugin-footer": "You can choose the official plugins here. And welcome to [$1 InPageEdit-Plugins] to contribute your code!",
     "preference-analysis-totaluse": "<strong>総使用回数</strong>: $1回",
-    "preference-display-label": "表示設定"
+    "preference-display-label": "表示設定",
+    "new-translation-test": "New translation string test"
 }
