@@ -4,7 +4,9 @@
     "version-notice-canary-title": "Canary版本稳定性警告",
     "version-notice-canary": "Canary版本是作者用于测试与开发的版本。未经测试的实验功能可能会出现在此版本中，甚至某些时候可能无法使用。为获得更好的体验，建议您切换至正常版本！",
     "updatelog-update-success-title": "InPageEdit升级成功",
-    "updatelog-update-success": "InPageEdit已升级到$1",
+    "$1 - Version number": {
+        "updatelog-update-success": "InPageEdit已升级到$1"
+    },
     "updatelog-button-versioninfo": "查看更新",
     "updatelog-after-close": "在下一个版本更新之前之前，此窗口将不再弹出，您可以在$1找到更新信息。如果您发现了任何问题，$2",
     "updatelog-dismiss": "不再显示",
@@ -96,9 +98,13 @@
     "preference-outSideClose": "点击编辑器外侧关闭",
     "preference-setMinor": "预设编辑为小编辑",
     "preference-summary-label": "编辑摘要",
-    "preference-editSummary": "<code>$section</code> - 将会被替换为<code>/<!-- -->* 段落名字 */</code><br><code>$oldid</code> - 将会被替换为<code>编辑自[<!-- -->[Special:Diff/oldid]]</code>",
+    "Do not remove <!----> things\nDo not translate $section and $oldid": {
+        "preference-editSummary": "<code>$section</code> - 将会被替换为<code>/<!-- -->* 段落名字 */</code><br><code>$oldid</code> - 将会被替换为<code>编辑自[<!-- -->[Special:Diff/oldid]]</code>"
+    },
     "preference-analysis-label": "数据收集",
-    "preference-analysis-view": "此插件会收集您的一些非敏感信息，用于记录插件的使用情况以便研究发展的方向，您可以在$1找到此插件收集的信息。",
+    "$1 - InPageEdit privacy policy URL": {
+        "preference-analysis-view": "此插件会收集您的一些非敏感信息，用于记录插件的使用情况以便研究发展的方向，您可以在$1找到此插件收集的信息。"
+    },
     "preference-about-label": "关于InPageEdit",
     "preference-aboutAndHelp": "关于&帮助",
     "preference-updatelog": "更新日志",
@@ -163,6 +169,5 @@
     "preference-redLinkQuickEdit": "在红链后添加快速编辑按钮",
     "preference-plugin-footer": "你可以在这里选用官方插件，欢迎前往[$1 InPageEdit-Plugins]贡献你的代码！一些插件需要重新加载页面才能生效。",
     "preference-analysis-totaluse": "<strong>使用总次数</strong>：$1 次",
-    "preference-display-label": "显示设置",
-    "new-translation-test": "New translation string test"
+    "preference-display-label": "显示设置"
 }
