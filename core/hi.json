@@ -4,7 +4,9 @@
     "version-notice-canary-title": "कैनरी स्थिरता सूचना",
     "version-notice-canary": "कैनरी संस्करण को लेखक/लेखिका ने डिबग और विकसित करने के लिए इस्तेमाल किया है। कोई भी बिना परीक्षण का सुविधा इस संस्करण में आ सकता है, और ठीक से काम नहीं भी कर सकता है। आपके अच्छे अनुभव के लिए, सामान्य संस्करण का इस्तेमाल करने की सिफारिश है।",
     "updatelog-update-success-title": "इनपेजएडिट अपडेट सफल हुआ",
-    "updatelog-update-success": "इनपेजएडिट $1 को स्थापित कर दिया जा चुका है।",
+    "$1 - Version number": {
+        "updatelog-update-success": "इनपेजएडिट $1 को स्थापित कर दिया जा चुका है।"
+    },
     "updatelog-button-versioninfo": "संस्करण की जानकारी देखें",
     "updatelog-after-close": "यह पॉप-अप विंडो अगले अपडेट के आने तक नहीं आएगा। $1 पर सारे प्रकाशनों की जानकारी पाएँ। अगर आपको प्लग-इन में मुश्किलें नज़र आती है, $2।",
     "updatelog-dismiss": "ठीक है",
@@ -96,9 +98,13 @@
     "preference-outSideClose": "एडिटर बंद करने के लिए बाहर क्लिक करें",
     "preference-setMinor": "डिफ़ॉल्ट से छोटी सम्पादना",
     "preference-summary-label": "सम्पादना सार",
-    "preference-editSummary": "<code>$section</code> - को <code>/<!-- -->* सेक्शन हैडर */</code> से बदल दिया जाएगा<br/><code>$oldid</code> - को <code>[<!-- -->[Special:Diff/oldid]] से एडिट</code> से बदल दिया जाएगा",
+    "Do not remove <!----> things\nDo not translate $section and $oldid": {
+        "preference-editSummary": "<code>$section</code> - को <code>/<!-- -->* सेक्शन हैडर */</code> से बदल दिया जाएगा<br/><code>$oldid</code> - को <code>[<!-- -->[Special:Diff/oldid]] से एडिट</code> से बदल दिया जाएगा"
+    },
     "preference-analysis-label": "विश्लेषण",
-    "preference-analysis-view": "हम आपके कुछ गैर-व्यक्तिगत जानकारी को प्लग-इन की प्रयोग को रिकॉर्ड करने के लिए इकट्ठा करेंगे। इकट्ठा किए गए जानकारी से हम आपके अनुभव को भतार बनाएँगे। इकट्ठा किया गया डेटा $1 पर है।",
+    "$1 - InPageEdit privacy policy URL": {
+        "preference-analysis-view": "हम आपके कुछ गैर-व्यक्तिगत जानकारी को प्लग-इन की प्रयोग को रिकॉर्ड करने के लिए इकट्ठा करेंगे। इकट्ठा किए गए जानकारी से हम आपके अनुभव को भतार बनाएँगे। इकट्ठा किया गया डेटा $1 पर है।"
+    },
     "preference-about-label": "इनपेजएडिट के बारे में",
     "preference-aboutAndHelp": "जानकारी और सहायता",
     "preference-updatelog": "अपडेट लॉग",
@@ -163,6 +169,5 @@
     "preference-redLinkQuickEdit": "रेड-लिंकों के बाद एक क्विक-बटन लगा दें",
     "preference-plugin-footer": "आप यहाँ आधिकारिक प्लग-इन चुन सकते हैं। और [$1 InPageEdit-Plugins] अपने कोड से योगदान देने के लिए हम आपका स्वागत करते हैं! कुछ प्लग-इनों को प्रभाव दिखाने के लिए पृष्ठ को रीलोड करना पड़ता है।",
     "preference-analysis-totaluse": "<strong>पूरा इस्तेमाल</strong>: $1 {{PLURAL:$1|बार|बार}}",
-    "preference-display-label": "डिस्प्ले सेटिंग्स",
-    "new-translation-test": "New translation string test"
+    "preference-display-label": "डिस्प्ले सेटिंग्स"
 }
