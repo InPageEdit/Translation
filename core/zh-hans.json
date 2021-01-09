@@ -163,5 +163,6 @@
     "preference-redLinkQuickEdit": "在红链后添加快速编辑按钮",
     "preference-plugin-footer": "你可以在这里选用官方插件，欢迎前往[$1 InPageEdit-Plugins]贡献你的代码！一些插件需要重新加载页面才能生效。",
     "preference-analysis-totaluse": "<strong>使用总次数</strong>：$1 次",
-    "preference-display-label": "显示设置"
+    "preference-display-label": "显示设置",
+    "new-translation-test": "New translation string test"
 }
