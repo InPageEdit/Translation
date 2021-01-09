@@ -1,0 +1,3 @@
+files:
+  - source: /InPageEdit/source/*.json
+    translation: /InPageEdit/dist/%locale%.json
