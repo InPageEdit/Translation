@@ -4,7 +4,9 @@
     "version-notice-canary-title": "Canary stability warning",
     "version-notice-canary": "Canary version is the version used by the author for debugging and development. Any untested experimental features may appear in this version, or even may not work normally at some time. For your experience, it is recommended to switch to the normal version!",
     "updatelog-update-success-title": "InPageEdit update successful",
-    "updatelog-update-success": "InPageEdit $1 has been installed.",
+    "$1 - Version number": {
+        "updatelog-update-success": "InPageEdit $1 has been installed."
+    },
     "updatelog-button-versioninfo": "View version info",
     "updatelog-after-close": "This pop-up window will not pop up again until the next version update. Find all release info at $1. If you find issues with the plug-in. $2",
     "updatelog-dismiss": "DISMISS",
@@ -96,9 +98,13 @@
     "preference-outSideClose": "Click out side to close editor",
     "preference-setMinor": "Minor edit as default",
     "preference-summary-label": "Edit summary",
-    "preference-editSummary": "<code>$section</code> - will be replaced by <code>/<!-- -->* Section header */</code><br><code>$oldid</code> - will be replaced by <code>Edit from [<!-- -->[Special:Diff/oldid]]</code>",
+    "Do not remove <!----> things\nDo not translate $section and $oldid": {
+        "preference-editSummary": "<code>$section</code> - will be replaced by <code>/<!-- -->* Section header */</code><br><code>$oldid</code> - will be replaced by <code>Edit from [<!-- -->[Special:Diff/oldid]]</code>"
+    },
     "preference-analysis-label": "Analysis",
-    "preference-analysis-view": "We will collect some of your non-sensitive information to record the usage of the plugin. Information will be used to improve the experience. You can find the information we collected at $1.",
+    "$1 - InPageEdit privacy policy URL": {
+        "preference-analysis-view": "We will collect some of your non-sensitive information to record the usage of the plugin. Information will be used to improve the experience. You can find the information we collected at $1."
+    },
     "preference-about-label": "About InPageEdit",
     "preference-aboutAndHelp": "About&Help",
     "preference-updatelog": "Update Log",
@@ -163,6 +169,5 @@
     "preference-redLinkQuickEdit": "Add quick edit buttons after red links",
     "preference-plugin-footer": "You can choose the official plugins here. And welcome to [$1 InPageEdit-Plugins] to contribute your code! Some plugins need to reload the page to take effect.",
     "preference-analysis-totaluse": "<strong>Total use</strong>: $1 {{PLURAL:$1|time|times}}",
-    "preference-display-label": "Display settings",
-    "new-translation-test": "New translation string test"
+    "preference-display-label": "Display settings"
 }
