@@ -1,1 +1,0 @@
-# InPageEdit Core
